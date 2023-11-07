@@ -52,35 +52,4 @@ public class Employee {
                 "\nSalary along with Taxes and Bonuses: " + (salary + bonus() - tax()) +
                 "\nEmployee's Total Salary: " + (salary + bonus() + raiseSalary() - tax());
     }
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-    public int getWorkHours() {
-        return workHours;
-    }
-
-    public void setWorkHours(int workHours) {
-        this.workHours = workHours;
-    }
-
-    public int getHireYear() {
-        return hireYear;
-    }
-
-    public void setHireYear(int hireYear) {
-        this.hireYear = hireYear;
-    }
 }
